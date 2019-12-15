@@ -264,7 +264,6 @@ public:
 	~TBigNum()
 	{
 		if (pf_a != NULL) {
-			pf_a = (unsigned char*)malloc(Size);
 			free(pf_a);
 			pf_a = NULL;
 		}
